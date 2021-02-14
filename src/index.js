@@ -5,6 +5,7 @@ import { PersistGate } from 'redux-persist/es/integration/react';
 import Loading from 'components/UI/Loading';
 import App from 'containers/App';
 import configureStore from './store/configureStore';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import './styles/app.css';
 
@@ -17,7 +18,9 @@ ReactDOM.render(
       loading={<Loading />}
       persistor={persistor}
     >
-      <App />
+      <Router>
+        <App />
+      </Router>
     </PersistGate>
   </Provider>,
   root,

@@ -46,7 +46,7 @@ module.exports = {
         loader: 'url-loader?name=img/[hash].[ext]',
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         use: {
           loader: 'babel-loader',
           options: {
