@@ -27,6 +27,7 @@ module.exports = {
       sagas: path.resolve(__dirname, '../src/redux/sagas'),
       selectors: path.resolve(__dirname, '../src/redux/selectors'),
       utils: path.resolve(__dirname, '../src/utils'),
+      public: path.resolve(__dirname, '../public'),
     },
     extensions: ['.js', '.jsx'],
   },

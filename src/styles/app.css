@@ -1,6 +1,7 @@
 @tailwind base;
 
 @import './fonts';
+@import './circle';
 
 @tailwind components;
 
