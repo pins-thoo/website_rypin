@@ -22,6 +22,7 @@ module.exports = {
       apparelDisplay: 'ApparelDisplay',
       apparelLight: 'ApparelLight',
       ilisarniq: 'Ilisarniq',
+      rareBird: 'RareBird',
     },
     fontSize: {
       xs: '13px',

@@ -69,3 +69,8 @@
   font-weight: 900;
   src: url("../../public/fonts/Ilisarniq-BlackItalic.otf") format("opentype")
 }
+
+@font-face {
+  font-family: 'RareBird';
+  src: url("../../public/fonts/Rare Bird Font Foundry - RareBirdSpecimenII-Regular.otf") format("opentype")
+}
